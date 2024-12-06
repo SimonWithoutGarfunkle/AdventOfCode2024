@@ -1,7 +1,7 @@
 package org.simonwithoutgarfunkle.puzzle;
 
 import lombok.extern.slf4j.Slf4j;
-import org.simonwithoutgarfunkle.AdventUtils;
+import org.simonwithoutgarfunkle.utils.AdventUtils;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -1,4 +1,4 @@
-package org.simonwithoutgarfunkle;
+package org.simonwithoutgarfunkle.utils;
 
 import lombok.extern.slf4j.Slf4j;
 

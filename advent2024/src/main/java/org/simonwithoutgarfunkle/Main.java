@@ -1,12 +1,12 @@
 package org.simonwithoutgarfunkle;
 
-import org.simonwithoutgarfunkle.puzzle.Day3;
+import org.simonwithoutgarfunkle.puzzle.Day5;
 
 public class Main {
     public static void main(String[] args) {
-        Day3 puzzle = new Day3();
+        Day5 puzzle = new Day5();
         puzzle.solvePuzzle1();
-        puzzle.solvePuzzle2();
+        //puzzle.solvePuzzle2();
     }
 
 }

@@ -1,13 +1,10 @@
 package org.simonwithoutgarfunkle;
 
-import org.simonwithoutgarfunkle.puzzle.Day5;
-
-import java.io.IOException;
-import java.util.logging.LogManager;
+import org.simonwithoutgarfunkle.puzzle.Day6;
 
 public class Main {
     public static void main(String[] args) {
-        Day5 puzzle = new Day5();
+        Day6 puzzle = new Day6();
         puzzle.solvePuzzle1();
         puzzle.solvePuzzle2();
     }

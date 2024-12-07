@@ -89,4 +89,18 @@ public class AdventUtils {
         }
         return result;
     }
+
+    public static int[] findChar(char[][] matrix, char target) {
+        int[] result = new int[2];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if (matrix[i][j] == target) {
+                    result[0] = i;
+                    result[1] = j;
+                    return result;
+                }
+            }
+        }
+        return result;
+    }
 }
